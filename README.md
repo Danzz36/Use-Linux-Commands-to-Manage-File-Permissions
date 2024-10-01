@@ -49,7 +49,7 @@ The first two lines of the screenshot display the commands I entered, and the ot
 
 ### Change file permissions on a hidden file
 
-The research team at my organization recently archived `project_x.txt`. They do not want anyone to have write access to this project, but the user and group should have read access. 
+The research team at the organization recently archived `project_x.txt`. They do not want anyone to have write access to this project, but the user and group should have read access. 
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
@@ -59,7 +59,7 @@ The first two lines of the screenshot display the commands I entered, and the ot
 
 ### Change directory permissions
 
-My organization only wants the `researcher2` user to have access to the `drafts` directory and its contents. This means that no one other than `researcher2` should have execute permissions.
+The organization only wants the `researcher2` user to have access to the `drafts` directory and its contents. This means that no one other than `researcher2` should have execute permissions.
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
@@ -69,7 +69,7 @@ The first two lines of the screenshot display the commands I entered, and the ot
 
 ## Summary
 
-I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the `projects` directory. The first step in this was using `ls -la` to check the permissions for the directory. This informed my decisions in the following steps. I then used the `chmod` command multiple times to change the permissions on files and directories.
+I changed multiple permissions to match the level of authorization the organization wanted for files and directories in the `projects` directory. The first step in this was using `ls -la` to check the permissions for the directory. This informed my decisions in the following steps. I then used the `chmod` command multiple times to change the permissions on files and directories.
 
 
 
